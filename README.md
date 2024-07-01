@@ -4,7 +4,7 @@
 
 The Cloud Resume Challenge is a project designed to showcase my skills in cloud technologies. This project involves creating a serverless website that tracks and displays the number of visits using AWS services.
 
-![Cloud Resume Architecture](images/architecture-diagram.png)
+
 
 ## Creating the Site with HTML and CSS
 
