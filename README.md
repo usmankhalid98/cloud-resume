@@ -22,6 +22,9 @@ While S3 provided reliable storage, I enhanced the performance and global reach 
 
 When creating the distribution, I made sure to select the S3 bucket as the Origin Domain and chose "Origin access control settings" under Origin Access. OAC (Origin Access Control) in CloudFront was a feature that restricted access to my origin server, ensuring that only specified CloudFront distributions could access it. After creating the distribution, I saw an option to copy the S3 bucket policy that allowed only CloudFront to communicate with the S3 bucket.
 
-When the certificates have been issued to me in AWS Certificate Manager, I can edit the CloudFront distribution and add in my domain name and SSL certificate (see the section AWS Certificate Manager below)
+I changed the viewer protocol to Redirect HTTP to HTTPS to ensure the secure transfer of data.
+I also, modified the root object to “index.html,” which will be the default file served when accessing the website.
+
+When the certificates have been issued to me in AWS Certificate Manager, I can edit the CloudFront distribution and add my domain name and SSL certificate (see the section AWS Certificate Manager below)
 
 ![4DFC0CA9-1950-4B75-B67C-ADB473334B1E_1_201_a](https://github.com/usmankhalid98/cloud-resume/assets/44751712/34e200bd-51f7-463d-adcc-46780237994f)
