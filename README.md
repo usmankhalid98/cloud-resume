@@ -36,4 +36,13 @@ I have created a public hosted zone for my domain, usmankhalid.co.uk. This will 
 
 ![7CDE63F3-A1E7-42C6-A420-15E1B8A4854C_1_201_a](https://github.com/usmankhalid98/cloud-resume/assets/44751712/84e3d34a-0f65-4139-ad68-6d95a0b4c918)
 
+## AWS Certificate Manager
+
 I've updated my CloudFront distribution with my domain name and SSL certificate, I have created a record within the hosted zone I created earlier so that my domain, usmankhalid.co.uk, points to the CloudFront distribution.
+
+I have requested a public certificate for the following domains I own:
+
+usmankhalid.co.uk
+*.usmankhalid.co.uk (the wildcard * is used to allow all the subdomains)
+
+This will generate some SSL certificates which I will be using in my CloudFront distribution. As all my resources are in the London region (eu-west-2), I originally requested a certificate in that region but AWS requires you to have your certificates in N. Virginia (us-east-1) if you want to attach it to your CloudFront distribution. You won't be able to export the existing certificate but you will be fine to request a certificate in us-east-1 for the same domain name.
