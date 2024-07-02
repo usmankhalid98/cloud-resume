@@ -35,3 +35,7 @@ I have created a public hosted zone for my domain, usmankhalid.co.uk. This will 
 
 
 ![7CDE63F3-A1E7-42C6-A420-15E1B8A4854C_1_201_a](https://github.com/usmankhalid98/cloud-resume/assets/44751712/84e3d34a-0f65-4139-ad68-6d95a0b4c918)
+
+I've updated my CloudFront distribution with my domain name and SSL certificate, I have created a record within the hosted zone I created earlier so that my domain, usmankhalid.co.uk, points to the CloudFront distribution. The record will look something like this:
+
+![A763127A-1306-48D7-97D1-544381E0C202](https://github.com/usmankhalid98/cloud-resume/assets/44751712/229177fc-aeec-4370-9879-938b3c2a4b52)
