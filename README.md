@@ -51,3 +51,11 @@ This will generate some SSL certificates which I will be using in my CloudFront 
 ## DynamoDB and Lambda 
 
 In the next phase of this project, I created a view counter for my website using Lambda API and DynamoDB as the database, enabling the website to display the number of visitors it had received. Rather than directly accessing the database from my website, I invoked a Lambda function to retrieve the values from DynamoDB.
+
+I navigated to the “Tables” section in DynamoDB to create a table for storing the view counter data. I set the primary key as “id” and left other settings as default, optionally adding a tag.
+
+After creating the table, I went to the “Explore items” section where there were currently no items. I then proceeded to create a new item with an attribute named “Views” having a value of “1” and the type set as “Number”.
+
+I now had a table created with an item specifically designed to store the view count.
+
+![7EF04F81-2083-4984-8672-AB4FE2708397](https://github.com/usmankhalid98/cloud-resume/assets/44751712/b003ea79-fa52-45df-8734-1ae54e2cc8b0)
