@@ -70,3 +70,7 @@ In the advanced settings, I also enabled the Function URL to allow interaction w
 Next, I proceeded to add the required permissions for the Lambda function to retrieve and update the viewer count in DynamoDB. Navigating to the “Configuration” tab of my function, I accessed the permission sidebar and clicked on the execution role. This action redirected me to IAM, where I included the “AmazonDynamoDBFullAccess” permission policy in the execution role, providing both Read and Write access.
 
 While in the configuration menu, I made sure to configure the CORS “Allow-Origin” setting to restrict access to the function URL only from my domain name (usmankhalid.co.uk)
+
+After creating the function and granting the necessary permissions, I added the required code to fetch the item from the DynamoDB table.
+
+![997972AD-FE75-422E-B42F-11D05FD7AE11](https://github.com/usmankhalid98/cloud-resume/assets/44751712/855ea181-29f2-4e38-a87a-f9c0a0b25aab)
