@@ -83,4 +83,8 @@ I created an index.js file in the root folder of my website and added the follow
 
 ![B2D5310E-C716-4BBB-AA52-E3C526BA1BDB](https://github.com/usmankhalid98/cloud-resume/assets/44751712/ebf9e852-b1ae-4e67-9028-c1ce2830e217)
 
-Now that I had created the JavaScript code, I referenced it within our index.html file. I created a script tag just before closing the body, which improved website loading performance by allowing the HTML content to render first before executing the JavaScript code. I incorporate the view counter on my webpage using a div class
+Now that I had created the JavaScript code, I referenced it within our index.html file. I created a script tag just before closing the body, which improved website loading performance by allowing the HTML content to render first before executing the JavaScript code. I incorporate the view counter on my webpage using a div class.
+
+## Implementing Source Control and CI/CD with GitHub Actions
+
+In this section, I added my website code to a GitHub repository and set up GitHub Actions to automate the process of pushing changes to my S3 bucket whenever I committed changes to my website code. This CI/CD pipeline automatically updated my S3 bucket and reflected the changes on my website, ensuring a seamless and efficient development workflow.
