@@ -102,3 +102,5 @@ By adding these environment variables, the GitHub Actions workflow had access to
 To test the successful execution of GitHub Actions, I created a test.txt file within my website directory, saved the changes, and used the Source Control button in VSCode to commit the modifications and synchronise them. see the screenshots below: 
 
 ![963F2E58-1F42-4CE0-84A8-AAD2AD170C32](https://github.com/usmankhalid98/cloud-resume/assets/44751712/650d0a27-8d49-44a8-a630-e85bb5255ce0)
+
+![963F2E58-1F42-4CE0-84A8-AAD2AD170C32](https://github.com/usmankhalid98/cloud-resume/assets/44751712/650d0a27-8d49-44a8-a630-e85bb5255ce0)
