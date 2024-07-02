@@ -42,7 +42,7 @@ I've updated my CloudFront distribution with my domain name and SSL certificate,
 
 I have requested a public certificate for the following domains I own:
 
-usmankhalid.co.uk
-*.usmankhalid.co.uk (the wildcard * is used to allow all the subdomains)
+<li>usmankhalid.co.uk</li>
+<li>*.usmankhalid.co.uk (the wildcard * is used to allow all the subdomains)/li>
 
 This will generate some SSL certificates which I will be using in my CloudFront distribution. As all my resources are in the London region (eu-west-2), I originally requested a certificate in that region but AWS requires you to have your certificates in N. Virginia (us-east-1) if you want to attach it to your CloudFront distribution. You won't be able to export the existing certificate but you will be fine to request a certificate in us-east-1 for the same domain name.
