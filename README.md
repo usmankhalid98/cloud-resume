@@ -47,3 +47,7 @@ I have requested a public certificate for the following domains I own:
 
 
 This will generate some SSL certificates which I will be using in my CloudFront distribution. As all my resources are in the London region (eu-west-2), I originally requested a certificate in that region but AWS requires you to have your certificates in N. Virginia (us-east-1) if you want to attach it to your CloudFront distribution. You won't be able to export the existing certificate but you will be fine to request a certificate in us-east-1 for the same domain name.
+
+## DynamoDB and Lambda 
+
+In the next phase of this project, I created a view counter for my website using Lambda API and DynamoDB as the database, enabling the website to display the number of visitors it had received. Rather than directly accessing the database from my website, I invoked a Lambda function to retrieve the values from DynamoDB.
