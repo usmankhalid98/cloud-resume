@@ -74,3 +74,11 @@ While in the configuration menu, I made sure to configure the CORS “Allow-Orig
 After creating the function and granting the necessary permissions, I added the required code to fetch the item from the DynamoDB table.
 
 ![997972AD-FE75-422E-B42F-11D05FD7AE11](https://github.com/usmankhalid98/cloud-resume/assets/44751712/855ea181-29f2-4e38-a87a-f9c0a0b25aab)
+
+## Implementing the View Counter Feature in Website Code
+
+In this section, I updated the website code to incorporate the view count obtained from the API and display it on the website.
+
+I created an index.js file in the root folder of my website and added the following JavaScript code to it.
+
+![B2D5310E-C716-4BBB-AA52-E3C526BA1BDB](https://github.com/usmankhalid98/cloud-resume/assets/44751712/ebf9e852-b1ae-4e67-9028-c1ce2830e217)
