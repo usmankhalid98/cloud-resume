@@ -95,3 +95,10 @@ I navigated back to my website code and created a new folder named “.github/wo
 
 ![083CD493-FE66-416C-A6B1-62B9B8E225E1](https://github.com/usmankhalid98/cloud-resume/assets/44751712/876e2d35-667d-41fa-b47d-0c248610b53d)
 
+To ensure the successful execution of the actions, I defined the required environment variables, including my S3 bucket name, access key ID, and secret access key.
+
+By adding these environment variables, the GitHub Actions workflow had access to the necessary credentials and configurations to perform the required actions.
+
+To test the successful execution of GitHub Actions, I created a test.txt file within my website directory, saved the changes, and used the Source Control button in VSCode to commit the modifications and synchronise them. see the screenshots below: 
+
+![963F2E58-1F42-4CE0-84A8-AAD2AD170C32](https://github.com/usmankhalid98/cloud-resume/assets/44751712/650d0a27-8d49-44a8-a630-e85bb5255ce0)
