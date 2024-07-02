@@ -88,3 +88,10 @@ Now that I had created the JavaScript code, I referenced it within our index.htm
 ## Implementing Source Control and CI/CD with GitHub Actions
 
 In this section, I added my website code to a GitHub repository and set up GitHub Actions to automate the process of pushing changes to my S3 bucket whenever I committed changes to my website code. This CI/CD pipeline automatically updated my S3 bucket and reflected the changes on my website, ensuring a seamless and efficient development workflow.
+
+To create a seamless experience for updating my website code and ensure that changes made on my local machine were reflected on our live website, I set up a CI/CD process that automatically uploaded files to S3 and applied updates dynamically when changes were pushed to GitHub.
+
+I navigated back to my website code and created a new folder named “.github/workflows” within the root folder of my website. Inside this folder, I created a YAML file named “ci-cd.yml” to hold the GitHub Action configuration. I then added the following code snippet to the “ci-cd.yml” file:
+
+![083CD493-FE66-416C-A6B1-62B9B8E225E1](https://github.com/usmankhalid98/cloud-resume/assets/44751712/876e2d35-667d-41fa-b47d-0c248610b53d)
+
