@@ -38,4 +38,4 @@ I have created a public hosted zone for my domain, usmankhalid.co.uk. This will 
 
 I've updated my CloudFront distribution with my domain name and SSL certificate, I have created a record within the hosted zone I created earlier so that my domain, usmankhalid.co.uk, points to the CloudFront distribution. The record will look something like this:
 
-![A763127A-1306-48D7-97D1-544381E0C202](https://github.com/usmankhalid98/cloud-resume/assets/44751712/229177fc-aeec-4370-9879-938b3c2a4b52)
+![A763127A-1306-48D7-97D1-544381E0C202_1_201_a](https://github.com/usmankhalid98/cloud-resume/assets/44751712/4c9f547a-8f0d-4d20-8d35-6f2917faa2cb)
