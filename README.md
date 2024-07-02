@@ -59,3 +59,14 @@ After creating the table, I went to the “Explore items” section where there 
 I now had a table created with an item specifically designed to store the view count.
 
 ![7EF04F81-2083-4984-8672-AB4FE2708397](https://github.com/usmankhalid98/cloud-resume/assets/44751712/b003ea79-fa52-45df-8734-1ae54e2cc8b0)
+
+
+I created a Lambda function that interacted with the DynamoDB table to increment the view counter, and configured the necessary permissions for the Lambda function to access DynamoDB.
+
+I navigated to AWS Lambda and clicked on “Create function.” I provided a name for my function and chose Python as the runtime. I opted to create a new execution role with basic Lambda permissions.
+
+In the advanced settings, I also enabled the Function URL to allow interaction with the function through HTTP requests and set the Authorization type as “NONE” to allow unrestricted access. Additionally, I enabled CORS (Cross-Origin Resource Sharing) to whitelist my URL as the only allowed origin for fetching data from this API.
+
+Next, I proceeded to add the required permissions for the Lambda function to retrieve and update the viewer count in DynamoDB. Navigating to the “Configuration” tab of my function, I accessed the permission sidebar and clicked on the execution role. This action redirected me to IAM, where I included the “AmazonDynamoDBFullAccess” permission policy in the execution role, providing both Read and Write access.
+
+While in the configuration menu, I made sure to configure the CORS “Allow-Origin” setting to restrict access to the function URL only from my domain name (usmankhalid.co.uk)
