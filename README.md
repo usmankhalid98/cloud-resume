@@ -103,4 +103,5 @@ To test the successful execution of GitHub Actions, I created a test.txt file wi
 
 ![963F2E58-1F42-4CE0-84A8-AAD2AD170C32](https://github.com/usmankhalid98/cloud-resume/assets/44751712/650d0a27-8d49-44a8-a630-e85bb5255ce0)
 
-![963F2E58-1F42-4CE0-84A8-AAD2AD170C32](https://github.com/usmankhalid98/cloud-resume/assets/44751712/650d0a27-8d49-44a8-a630-e85bb5255ce0)
+![57D9CA50-D097-4B31-98BD-FEE8A872EEE3](https://github.com/usmankhalid98/cloud-resume/assets/44751712/73bbe443-6c03-41ef-a77a-15fbad25a405)
+
