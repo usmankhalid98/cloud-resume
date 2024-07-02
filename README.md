@@ -28,3 +28,10 @@ I also, modified the root object to “index.html,” which will be the default 
 When the certificates have been issued to me in AWS Certificate Manager, I can edit the CloudFront distribution and add my domain name and SSL certificate (see the section AWS Certificate Manager below)
 
 ![4DFC0CA9-1950-4B75-B67C-ADB473334B1E_1_201_a](https://github.com/usmankhalid98/cloud-resume/assets/44751712/34e200bd-51f7-463d-adcc-46780237994f)
+
+## Route 53
+
+I have created a public hosted zone for my domain, usmankhalid.co.uk. This will generate some nameservers which I can use to point my domain name to.
+
+
+![7CDE63F3-A1E7-42C6-A420-15E1B8A4854C_1_201_a](https://github.com/usmankhalid98/cloud-resume/assets/44751712/84e3d34a-0f65-4139-ad68-6d95a0b4c918)
