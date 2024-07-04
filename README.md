@@ -114,3 +114,5 @@ The Cloud Resume Challenge has been a rewarding journey, allowing me to showcase
 Looking ahead, I plan to further enhance my proficiency and add to this project is by delving into infrastructure-as-code with Terraform. This will enable me to automate the creation and management of resources such as DynamoDB tables and Lambda functions, streamlining deployment processes and ensuring consistency across environments.
 
 By mastering Terraform, I aim to build more complex and efficient cloud solutions, ultimately advancing my capabilities as a cloud engineer and contributing to future projects with confidence and expertise.
+
+## Improvements 
