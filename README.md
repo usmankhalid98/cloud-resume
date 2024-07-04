@@ -3,7 +3,7 @@
 ## Overview
 
 
-Link to the website (https://usmankhalid.co.uk) 
+Link to the website: https://usmankhalid.co.uk 
 
 The Cloud Resume Challenge is a project designed to showcase my skills in cloud technologies. This project involves creating a serverless website that tracks and displays the number of visits using AWS services. Below is the Architectural Diagram of my cloud resume challenge. 
 
